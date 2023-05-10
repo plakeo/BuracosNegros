@@ -1,0 +1,81 @@
+html{
+  background-image: url(../image/bg-body.jpg);
+  background-repeat: no-repeat;
+  background-size: 150%;
+  background-attachment: fixed;
+  padding-top: 10%;
+}
+
+
+
+/*inicio logo header*/
+header .logo{
+  text-align: center;
+}
+
+header .logo img{
+  width: 25%;
+}
+/* fim logo header*/
+
+
+
+/*inico menu nav*/
+nav{
+  max-width: 750px;
+  mask-image: linear-gradient(90deg, rgba(255, 255, 255, 0) 0%, #ffffff 25%, #ffffff 75%, rgba(255, 255, 255, 0) 100%);
+  margin: 0 auto;
+  margin-top: 7%;
+}
+
+nav ul li a{
+  display: block;
+  color: rgba(0, 0, 0, 0.596);
+  font-family: 'trebuchet ms';
+  font-weight: bold;
+  text-decoration: none;
+  text-transform: uppercase;
+}
+  
+nav ul li a:hover{
+  color: #fff;
+}
+  
+nav ul{
+  text-align: center;
+  background: linear-gradient(90deg, rgba(255, 255, 255, 0) 0%, rgba(255, 255, 255, 0.2) 25%, rgba(255, 255, 255, 0.2) 75%, rgba(255, 255, 255, 0) 100%);
+}
+
+nav ul li{
+  margin: 2%;
+  display: inline-block;
+}
+
+nav .ativo {
+  color: #fff;
+}
+/*fim menu nav*/
+
+
+
+body{
+  padding: 1%;
+}
+
+body .corpo .box{
+  font-family: 'trebuchet ms';
+  text-align: justify;
+  background-color: rgba(226, 226, 226, 0.801);
+  color: rgb(26, 26, 26);
+  border-radius: 10px;
+  padding: 2%;
+}
+
+body .corpo h1{
+  font-family: 'trebuchet ms';
+  color: whitesmoke;
+  text-align: center;
+  text-decoration: underline;
+  margin-top: 10%;
+  margin-bottom: 3%;
+}
